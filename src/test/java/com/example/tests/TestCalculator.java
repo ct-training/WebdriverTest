@@ -25,7 +25,7 @@ public class TestCalculator {
 public void setUp() throws Exception {
 	if (OS.indexOf("win") >= 0)
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\tools\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver_win32-2.27\\chromedriver.exe");
 	}
 	else if (OS.indexOf("nix") >= 0 || OS.indexOf("nux") >= 0 || OS.indexOf("aix") > 0 )
 	{
