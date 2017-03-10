@@ -32,7 +32,7 @@ public void setUp() throws Exception {
 		System.setProperty("webdriver.chrome.driver", "/tools/chromedriver/chromedriver");
 	}
     driver = new ChromeDriver();
-    baseUrl = "http://localhost:8080/CalculatorApplication/";
+    baseUrl = "http://citius-app.westus2.cloudapp.azure.com/CalculatorApplication/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
